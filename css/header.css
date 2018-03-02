@@ -1,0 +1,50 @@
+.knap1 {
+  font: Arial, Helvetica,sans-serif;
+  background-color: #e8491d;
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+}
+.knap2 {
+  font: Arial, Helvetica,sans-serif;
+  background-color: transparent;
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.knap3 {
+  font: Arial, Helvetica,sans-serif;
+  background-color: transparent;
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+ul {
+  list-style-type: none;
+  font: 15px/1.5 Arial, Helvetica,sans-serif;
+} 
+a:-webkit-any-link {
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+li {
+  display: inline;
+  text-align: none;
+} 

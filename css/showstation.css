@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+input[type=submit] {
+    background-color: #35424a;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+input[type=text] {
+    width : 200px;
+    height: 50px;
+    /*border-radius: 25px;*/
+    color: black;
+    text-align: center;
+}
+
+input[name=delete] {   
+    background-color: red;
+    color: white;
+}  
+
+input[name=delete] {   
+    background-color: red;
+    color: white;
+    float: right;
+}  
+
+input[name=opret] {   
+    background-color: green;
+    color: white;
+    margin-top: 60px;
+    float: left;
+}  
+input[id=ud] {   
+    background-color: green;
+    color: white;
+    margin-top: 60px;
+    float: right;
+}
+
+.button {
+    background-color: #35424a;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table, td, th {
+    border: 1px solid black;
+    margin-bottom: 1px;
+    padding: 0 3.5px;
+}
+
+ul {
+    list-style-type: none;
+    font: 15px/1.5 Arial, Helvetica,sans-serif;
+} 
+a:-webkit-any-link {
+    color: white;
+    cursor: auto;
+    text-decoration: none;
+}
+
+li {
+    display: inline;
+    text-align: none;
+}
+
+    th.dude{
+        padding: 0 38px;
+        width: 176px;
+    }
+
+    ul.hello {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+    }
+
+    li.hello {
+        float: left;
+    }
+
+    li a.hello {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+    li a:hover.hello {
+        background-color: #111;
+    }
+
+/* tidstable */
+.flyttebox3 { 
+    margin-top: 100px;
+    margin-left: 0px;
+    float:left;
+}
+div.spanTable {
+    float: left;
+    height: 100%;
+    width: 50%;
+    margin-left: 10%; 
+}
+
+
+div.elevinfo {
+    height: auto;
+    float: left;
+    width: auto;
+
+}
+
+div.img { 
+    float: right;
+    width: auto;
+}
+
+div.content {
+    width: 80%;
+    height: auto;
+}
+
+p {
+    font-family: sans-serif;
+}
+
+.overskrift1 {
+    position: relative;
+    margin-top: 10 px;
+}
+
+div.personliginfo {
+    border: 1px black;
+    margin-top: 6.55%;
+}
+
+
+
+table.personliginfo {
+    float: left;
+    height: 200px;
+    width: 150px;
+    border: 1px solid;
+    margin-top: 90px;
+    padding-left: 25%;
+}
+
+.icon-bar {
+    width: 100%; 
+    background-color: #35424a; /*dark grey*/
+    overflow: auto; 
+}
+
+.icon-bar a {
+    float: left; 
+    text-align: center; 
+    width: 20%; 
+    padding: 12px 0; 
+    transition: all 0.3s ease; 
+    color: white;
+    font-size: 20px; 
+}
+
+.icon-bar a:hover {
+    background-color: #000; 
+}
+
+.active {
+    background-color: #e8491d; /* orange */
+}
+
+
+#editui {
+  margin-top: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 250px;
+}
+
